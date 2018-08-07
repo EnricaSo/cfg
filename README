@@ -14,3 +14,14 @@ Install config tracking in your $HOME by running:
 The expanded url is at:
 
 https://bitbucket.org/durdn/cfg/src/master/.bin/install.sh
+
+## Enrica's files
+.bashrc
+.bash_aliases
+.zshrc
+.aliases
+.gitconfig
+
+# To replace the default ones, create symbolic links
+# Example:
+ln -s ~/src/config/.bashrc ~/.bashrc
