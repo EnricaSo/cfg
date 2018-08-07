@@ -8,7 +8,7 @@
 # user {{{
 [user]
     email = enrica.s92@gmail.com
-    name = enricaso
+	name = Enrica
 
 #}}}
 # include sendemail config {{{
@@ -44,7 +44,7 @@
 [push]
     default = current
 [pull]
-    default = current
+    default = matching
 [diff]
     mnemonicprefix = true
 [branch]
@@ -60,13 +60,13 @@
     cl = clone
     ci = commit
     co = checkout
+    fe = fetch
     br = branch
     r = reset
     cp = cherry-pick
     gr = grep -Ii
     # }}}
     # tweak defaults {{{
-    diff = diff --word-diff
     branch = branch -ra
     grep = grep -Ii
     bra = branch -ra

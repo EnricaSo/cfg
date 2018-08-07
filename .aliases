@@ -1,0 +1,14 @@
+########################################################################
+# File of aliases.
+#
+# It can be called both from .bashrc and from .zshrc to share aliases 
+# between the two shells.
+#
+########################################################################
+
+
+alias clc="clear"
+
+
+# Applications
+alias sublime='. subl'
