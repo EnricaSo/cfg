@@ -3,10 +3,10 @@
 # for examples
 
 # Change default shell to zsh
-#exec zsh
+exec zsh
 
 # Change default shell to fish
-fish
+# fish
 
 # If not running interactively, don't do anything
 case $- in
@@ -128,9 +128,11 @@ if ! shopt -oq posix; then
 fi
 
 # ROS
-source /opt/ros/kinetic/setup.bash
-source ~/catkin_ws/devel/setup.bash
-source ~/swarm_ws/devel/setup.bash
+# source /opt/ros/kinetic/setup.bash
+# source ~/catkin_ws/devel/setup.bash
+# source ~/swarm_ws/devel/setup.bash
 
 # Added by Anaconda3
-export PATH="/usr/local/anaconda3/bin:$PATH"
+# export PATH="/usr/local/anaconda3/bin:$PATH"
+
+# echo Executing .bashrc

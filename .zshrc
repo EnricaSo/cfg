@@ -111,8 +111,9 @@ alias dronecourse='cd ~/Work/src/Aerial_Robots_EPFL/Firmware/'
 # Alias for git
 git-trackall() {git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done }
 
-source /opt/ros/kinetic/setup.zsh
-source ~/catkin_ws/devel/setup.zsh
-source ~/swarm_ws/devel/setup.zsh
-source $HOME/.cargo/env
+# source /opt/ros/kinetic/setup.zsh
+# source ~/catkin_ws/devel/setup.zsh
+# source ~/swarm_ws/devel/setup.zsh
+# source $HOME/.cargo/env
 
+# echo Executing .zshrc
